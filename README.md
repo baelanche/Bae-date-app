@@ -1,2 +1,2 @@
 # Bae-date-app
-Ordinary app
+url : https://baelanche.github.io/Bae-date-app/
