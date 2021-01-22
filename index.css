@@ -1,53 +1,67 @@
 * {
-    color: white;
+  color: white;
 }
 
 input {
-    color: black;
-    text-align: center;
+  color: black;
+  text-align: center;
 }
 
 .container {
-    position: fixed;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%);
-    text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%);
+  text-align: center;
 }
 
 .js-title {
-    font-size: 70px;
-    text-align: center;
+  font-size: 70px;
+  text-align: center;
 }
 
-.form, .greetings {
-    font-size: 30px;
-    display: none;
+.form,
+.greetings {
+  font-size: 30px;
+  display: none;
 }
 
 .showing {
-    display: block;
+  display: block;
 }
 
 body {
-    background-color: #2c3e50;
+  background-color: #2c3e50;
+}
+
+li button {
+  background-color: skyblue;
+  border: 1px solid darkgray;
+  color: darkgray;
+  border-radius: 20%;
+  margin-right: 5px;
+  opacity: 0.7;
+}
+
+li button:hover {
+  opacity: 1;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .bgImage {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    animation: fadeIn .5s linear;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
 }
